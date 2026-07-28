@@ -1,0 +1,24 @@
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/date-3.5.1/ext/date
+/nix/store/l38m6dy9h4ia233c7dj1kd171fc33g9m-ruby-3.4.9/bin/ruby extconf.rb
+checking for rb_category_warn()... yes
+checking for timezone in time.h with -Werror... yes
+checking for altzone in time.h with -Werror... no
+creating Makefile
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/date-3.5.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-ne1c1e sitelibdir\=./.gem.20260727-244588-ne1c1e clean
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/date-3.5.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-ne1c1e sitelibdir\=./.gem.20260727-244588-ne1c1e
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.so
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/date-3.5.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-ne1c1e sitelibdir\=./.gem.20260727-244588-ne1c1e install
+install -c -p -m 755 date_core.so ./.gem.20260727-244588-ne1c1e
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/date-3.5.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-ne1c1e sitelibdir\=./.gem.20260727-244588-ne1c1e clean

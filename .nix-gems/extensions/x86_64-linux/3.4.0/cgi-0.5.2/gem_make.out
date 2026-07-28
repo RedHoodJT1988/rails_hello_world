@@ -1,0 +1,18 @@
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/cgi-0.5.2/ext/cgi/escape
+/nix/store/l38m6dy9h4ia233c7dj1kd171fc33g9m-ruby-3.4.9/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/cgi-0.5.2/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-cj240k sitelibdir\=./.gem.20260727-244588-cj240k clean
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/cgi-0.5.2/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-cj240k sitelibdir\=./.gem.20260727-244588-cj240k
+compiling escape.c
+linking shared-object cgi/escape.so
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/cgi-0.5.2/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-cj240k sitelibdir\=./.gem.20260727-244588-cj240k install
+install -c -p -m 755 escape.so ./.gem.20260727-244588-cj240k/cgi
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/cgi-0.5.2/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-cj240k sitelibdir\=./.gem.20260727-244588-cj240k clean

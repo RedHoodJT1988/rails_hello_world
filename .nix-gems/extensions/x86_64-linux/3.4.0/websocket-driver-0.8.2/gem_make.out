@@ -1,0 +1,18 @@
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/websocket-driver-0.8.2/ext/websocket-driver
+/nix/store/l38m6dy9h4ia233c7dj1kd171fc33g9m-ruby-3.4.9/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/websocket-driver-0.8.2/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-asikbo sitelibdir\=./.gem.20260727-244588-asikbo clean
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/websocket-driver-0.8.2/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-asikbo sitelibdir\=./.gem.20260727-244588-asikbo
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/websocket-driver-0.8.2/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-asikbo sitelibdir\=./.gem.20260727-244588-asikbo install
+install -c -p -m 755 websocket_mask.so ./.gem.20260727-244588-asikbo
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/websocket-driver-0.8.2/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-asikbo sitelibdir\=./.gem.20260727-244588-asikbo clean

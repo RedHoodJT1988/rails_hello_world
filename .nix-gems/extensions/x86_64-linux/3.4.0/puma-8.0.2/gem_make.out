@@ -1,0 +1,41 @@
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/puma-8.0.2/ext/puma_http11
+/nix/store/l38m6dy9h4ia233c7dj1kd171fc33g9m-ruby-3.4.9/bin/ruby extconf.rb
+checking for pkg-config for openssl... ["-I/nix/store/33n9vfhwvq35sa9qmyd0c7l61m539c1v-openssl-3.6.3-dev/include ", "-L/nix/store/604a9ayx3kdxqlx72f5wb39gn401y38v-openssl-3.6.3/lib", "-lssl -lcrypto"]
+──── Using OpenSSL pkgconfig (openssl.pc) ────
+checking for openssl/bio.h... yes
+
+──── Below are yes for 1.0.2 & later ────
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_session_cache_mode(NULL, 0) in openssl/ssl.h... yes
+
+──── Below are yes for 1.1.0 & later ────
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+
+──── Below is yes for 1.1.0 and later, but isn't documented until 3.0.0 ────
+checking for SSL_CTX_set_dh_auto(NULL, 0) in openssl/ssl.h... yes
+
+──── Below is yes for 1.1.1 & later ────
+checking for SSL_CTX_set_ciphersuites(NULL, "") in openssl/ssl.h... yes
+
+──── Below is yes for 3.0.0 & later ────
+checking for SSL_get1_peer_certificate() in openssl/ssl.h... yes
+
+creating Makefile
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/puma-8.0.2/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-vnq1co sitelibdir\=./.gem.20260727-244588-vnq1co clean
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/puma-8.0.2/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-vnq1co sitelibdir\=./.gem.20260727-244588-vnq1co
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/puma-8.0.2/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-vnq1co sitelibdir\=./.gem.20260727-244588-vnq1co install
+install -c -p -m 755 puma_http11.so ./.gem.20260727-244588-vnq1co/puma
+
+current directory: /home/redhood/Desktop/code/rubyProj/railstutorial/environment/hello_app/.nix-gems/gems/puma-8.0.2/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20260727-244588-vnq1co sitelibdir\=./.gem.20260727-244588-vnq1co clean
